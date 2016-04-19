@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B7F26F1C433BD2007704C4 /* ZHJelly.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B7F26E1C433BD2007704C4 /* ZHJelly.m */; };
+		32C21C4D1C3E4079006D154C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C21C4C1C3E4079006D154C /* main.m */; };
+		32C21C501C3E4079006D154C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C21C4F1C3E4079006D154C /* AppDelegate.m */; };
+		32C21C581C3E4079006D154C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C21C571C3E4079006D154C /* Assets.xcassets */; };
+		32C21C661C3E4079006D154C /* ZHJellyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C21C651C3E4079006D154C /* ZHJellyTests.m */; };
+		32C21C711C3E4079006D154C /* ZHJellyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C21C701C3E4079006D154C /* ZHJellyUITests.m */; };
+		32C21C861C3E4CA6006D154C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C21C851C3E4CA6006D154C /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32C21C621C3E4079006D154C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32C21C401C3E4079006D154C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C21C471C3E4079006D154C;
+			remoteInfo = ZHJelly;
+		};
+		32C21C6D1C3E4079006D154C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32C21C401C3E4079006D154C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C21C471C3E4079006D154C;
+			remoteInfo = ZHJelly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32B7F26D1C433BD2007704C4 /* ZHJelly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHJelly.h; sourceTree = "<group>"; };
+		32B7F26E1C433BD2007704C4 /* ZHJelly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHJelly.m; sourceTree = "<group>"; };
+		32C21C481C3E4079006D154C /* ZHJelly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHJelly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C21C4C1C3E4079006D154C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32C21C4E1C3E4079006D154C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32C21C4F1C3E4079006D154C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32C21C571C3E4079006D154C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32C21C5C1C3E4079006D154C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C21C611C3E4079006D154C /* ZHJellyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHJellyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C21C651C3E4079006D154C /* ZHJellyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJellyTests.m; sourceTree = "<group>"; };
+		32C21C671C3E4079006D154C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C21C6C1C3E4079006D154C /* ZHJellyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHJellyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C21C701C3E4079006D154C /* ZHJellyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHJellyUITests.m; sourceTree = "<group>"; };
+		32C21C721C3E4079006D154C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C21C841C3E4CA6006D154C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		32C21C851C3E4CA6006D154C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32C21C451C3E4079006D154C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C21C5E1C3E4079006D154C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C21C691C3E4079006D154C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32C21C3F1C3E4079006D154C = {
+			isa = PBXGroup;
+			children = (
+				32C21C4A1C3E4079006D154C /* ZHJelly */,
+				32C21C641C3E4079006D154C /* ZHJellyTests */,
+				32C21C6F1C3E4079006D154C /* ZHJellyUITests */,
+				32C21C491C3E4079006D154C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32C21C491C3E4079006D154C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32C21C481C3E4079006D154C /* ZHJelly.app */,
+				32C21C611C3E4079006D154C /* ZHJellyTests.xctest */,
+				32C21C6C1C3E4079006D154C /* ZHJellyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C21C4A1C3E4079006D154C /* ZHJelly */ = {
+			isa = PBXGroup;
+			children = (
+				32B7F26D1C433BD2007704C4 /* ZHJelly.h */,
+				32B7F26E1C433BD2007704C4 /* ZHJelly.m */,
+				32C21C4E1C3E4079006D154C /* AppDelegate.h */,
+				32C21C4F1C3E4079006D154C /* AppDelegate.m */,
+				32C21C841C3E4CA6006D154C /* RootViewController.h */,
+				32C21C851C3E4CA6006D154C /* RootViewController.m */,
+				32C21C571C3E4079006D154C /* Assets.xcassets */,
+				32C21C5C1C3E4079006D154C /* Info.plist */,
+				32C21C4B1C3E4079006D154C /* Supporting Files */,
+			);
+			path = ZHJelly;
+			sourceTree = "<group>";
+		};
+		32C21C4B1C3E4079006D154C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32C21C4C1C3E4079006D154C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32C21C641C3E4079006D154C /* ZHJellyTests */ = {
+			isa = PBXGroup;
+			children = (
+				32C21C651C3E4079006D154C /* ZHJellyTests.m */,
+				32C21C671C3E4079006D154C /* Info.plist */,
+			);
+			path = ZHJellyTests;
+			sourceTree = "<group>";
+		};
+		32C21C6F1C3E4079006D154C /* ZHJellyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32C21C701C3E4079006D154C /* ZHJellyUITests.m */,
+				32C21C721C3E4079006D154C /* Info.plist */,
+			);
+			path = ZHJellyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32C21C471C3E4079006D154C /* ZHJelly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C21C751C3E4079006D154C /* Build configuration list for PBXNativeTarget "ZHJelly" */;
+			buildPhases = (
+				32C21C441C3E4079006D154C /* Sources */,
+				32C21C451C3E4079006D154C /* Frameworks */,
+				32C21C461C3E4079006D154C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHJelly;
+			productName = ZHJelly;
+			productReference = 32C21C481C3E4079006D154C /* ZHJelly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32C21C601C3E4079006D154C /* ZHJellyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C21C781C3E4079006D154C /* Build configuration list for PBXNativeTarget "ZHJellyTests" */;
+			buildPhases = (
+				32C21C5D1C3E4079006D154C /* Sources */,
+				32C21C5E1C3E4079006D154C /* Frameworks */,
+				32C21C5F1C3E4079006D154C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32C21C631C3E4079006D154C /* PBXTargetDependency */,
+			);
+			name = ZHJellyTests;
+			productName = ZHJellyTests;
+			productReference = 32C21C611C3E4079006D154C /* ZHJellyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32C21C6B1C3E4079006D154C /* ZHJellyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C21C7B1C3E4079006D154C /* Build configuration list for PBXNativeTarget "ZHJellyUITests" */;
+			buildPhases = (
+				32C21C681C3E4079006D154C /* Sources */,
+				32C21C691C3E4079006D154C /* Frameworks */,
+				32C21C6A1C3E4079006D154C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32C21C6E1C3E4079006D154C /* PBXTargetDependency */,
+			);
+			name = ZHJellyUITests;
+			productName = ZHJellyUITests;
+			productReference = 32C21C6C1C3E4079006D154C /* ZHJellyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32C21C401C3E4079006D154C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jinzhuanch;
+				TargetAttributes = {
+					32C21C471C3E4079006D154C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					32C21C601C3E4079006D154C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 32C21C471C3E4079006D154C;
+					};
+					32C21C6B1C3E4079006D154C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 32C21C471C3E4079006D154C;
+					};
+				};
+			};
+			buildConfigurationList = 32C21C431C3E4079006D154C /* Build configuration list for PBXProject "ZHJelly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32C21C3F1C3E4079006D154C;
+			productRefGroup = 32C21C491C3E4079006D154C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32C21C471C3E4079006D154C /* ZHJelly */,
+				32C21C601C3E4079006D154C /* ZHJellyTests */,
+				32C21C6B1C3E4079006D154C /* ZHJellyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32C21C461C3E4079006D154C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C21C581C3E4079006D154C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C21C5F1C3E4079006D154C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C21C6A1C3E4079006D154C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32C21C441C3E4079006D154C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C21C501C3E4079006D154C /* AppDelegate.m in Sources */,
+				32C21C861C3E4CA6006D154C /* RootViewController.m in Sources */,
+				32B7F26F1C433BD2007704C4 /* ZHJelly.m in Sources */,
+				32C21C4D1C3E4079006D154C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C21C5D1C3E4079006D154C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C21C661C3E4079006D154C /* ZHJellyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C21C681C3E4079006D154C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C21C711C3E4079006D154C /* ZHJellyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32C21C631C3E4079006D154C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C21C471C3E4079006D154C /* ZHJelly */;
+			targetProxy = 32C21C621C3E4079006D154C /* PBXContainerItemProxy */;
+		};
+		32C21C6E1C3E4079006D154C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C21C471C3E4079006D154C /* ZHJelly */;
+			targetProxy = 32C21C6D1C3E4079006D154C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32C21C731C3E4079006D154C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32C21C741C3E4079006D154C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32C21C761C3E4079006D154C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHJelly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GBF.ZHJelly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32C21C771C3E4079006D154C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHJelly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GBF.ZHJelly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32C21C791C3E4079006D154C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHJellyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GBF.ZHJellyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHJelly.app/ZHJelly";
+			};
+			name = Debug;
+		};
+		32C21C7A1C3E4079006D154C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHJellyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GBF.ZHJellyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHJelly.app/ZHJelly";
+			};
+			name = Release;
+		};
+		32C21C7C1C3E4079006D154C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHJellyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GBF.ZHJellyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHJelly;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		32C21C7D1C3E4079006D154C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHJellyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GBF.ZHJellyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHJelly;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32C21C431C3E4079006D154C /* Build configuration list for PBXProject "ZHJelly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C21C731C3E4079006D154C /* Debug */,
+				32C21C741C3E4079006D154C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C21C751C3E4079006D154C /* Build configuration list for PBXNativeTarget "ZHJelly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C21C761C3E4079006D154C /* Debug */,
+				32C21C771C3E4079006D154C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C21C781C3E4079006D154C /* Build configuration list for PBXNativeTarget "ZHJellyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C21C791C3E4079006D154C /* Debug */,
+				32C21C7A1C3E4079006D154C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C21C7B1C3E4079006D154C /* Build configuration list for PBXNativeTarget "ZHJellyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C21C7C1C3E4079006D154C /* Debug */,
+				32C21C7D1C3E4079006D154C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32C21C401C3E4079006D154C /* Project object */;
+}
